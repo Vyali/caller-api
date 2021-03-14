@@ -29,7 +29,7 @@ Below is content of AppConfig.json
 
 Here ### callback url is for sending to pilvo during outbound call creation on which it will make a call 
 with call_UUID and other infos and expects a XML respones of the text needs to be played, it will point to caller-api's 
-## /answerCall endpoint.
+*/answerCall endpoint.
 
 `
 {   "port":8081,
