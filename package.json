@@ -1,0 +1,22 @@
+{
+  "name": "caller-api",
+  "version": "1.0.0",
+  "description": "Connecting people",
+  "main": "app.js",
+  "scripts": {
+    "lint": "eslint .",
+    "fix-lint": "eslint --fix ."
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "object-to-xml": "^2.0.0",
+    "pg": "^8.5.1",
+    "plivo": "^4.14.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "eslint": "^4.10.0"
+  },
+  "license": "MIT"
+}

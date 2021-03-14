@@ -1,0 +1,20 @@
+{   "port":8081,
+    "datasource": 
+        {
+            "name": "postgres",
+            "user": "ayush",
+            "host": "localhost",
+            "database": "notification",
+            "password": "postgres",
+            "port": 5432
+      },
+  "pilvoConfig":{
+    "callbackUrl":"http://s3.amazonaws.com/static.plivo.com/answer.xml",
+    "callbackMethod":"GET"
+
+
+  }
+     
+   
+  
+  }

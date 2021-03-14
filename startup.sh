@@ -1,0 +1,3 @@
+export AUTH_ID="MAM2U2ZTDLODFLYMU4M2"
+export AUTH_TOKEN="NmFiMTJhYTJiMjNiZmQwMThlZTc1OGZjZWJhMzk2"
+node app.js
