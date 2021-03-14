@@ -17,7 +17,9 @@ async function createCall(context,data){
             context.appConfig.pilvoConfig.callbackUrl, // answer url
             {
                 answerMethod: context.appConfig.pilvoConfig.callbackMethod,
-                timeLimit:data.durationMin
+                timeLimit:data.durationMin,
+                callerName:data.name
+
             },
         ).then(function (response) {
             console.log(response);
